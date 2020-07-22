@@ -9,13 +9,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: whitesmoke;
-    font-family: 'Post-Jaffna';
-    font-weight: normal;
+    
+    
+    
 }
 
 body {
     height: 100vh;
+    font-weight: normal;
+    font-family: 'Post-Jaffna';
+    color: whitesmoke;
 }
 
 
@@ -30,7 +33,7 @@ header {
 }
 
 .logo {
-    font-family: Post-Jaffna;
+    font-family: 'Post-Jaffna';
     font-weight: bolder;
     font-size: 2rem;
     align-self: center;
@@ -42,9 +45,11 @@ header {
 }
 
 .links {
+    font-family: 'Post-Jaffna';
     font-size: 1.3rem;
     text-decoration: none;
     padding-right: 0.7rem;
+    color: inherit;
 
 }
 
