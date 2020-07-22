@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Post-Jaffna';
-    src: url(/fonts/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Regular.woff)
+    src: url(./fonts/PostNoBillsJaffna-SemiBold.woff);
     
     
 }
@@ -78,10 +78,6 @@ header {
     height: 36vh;
 }
 
-#digital-letters {
-    
-    
-}
 
 #dig-let {
     height: 90vh;
