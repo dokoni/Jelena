@@ -9,9 +9,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-    
-    
 }
 
 body {
@@ -29,13 +26,12 @@ header {
     justify-content: space-between;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-
 }
 
 .logo {
     font-family: 'Post-Jaffna';
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.2rem;
     align-self: center;
 }
 
@@ -46,17 +42,19 @@ header {
 
 .links {
     font-family: 'Post-Jaffna';
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-decoration: none;
     padding-right: 0.7rem;
     color: inherit;
-
 }
 
 .main-container {
     height: 90vh;
     width: auto;
-    background: linear-gradient(242.34deg, #1A4F53 39%, #2E654A 61%);
+    background-image: url(./images/background-letters.jpg);
+    background-position: center;
+    background-size: 100vw 90vh;
+
     position: relative;
 }
 
@@ -76,13 +74,16 @@ header {
     right: 29vw;
     top: 55%;
     transform: rotate(-6deg);
-
 }
 
 #reg-pen {
     height: 36vh;
 }
 
+#dig-let-holder, h1, h2, h3, h4, h5, h6, p{
+    font-size: 250%;
+    
+}
 
 #dig-let {
     height: 90vh;
