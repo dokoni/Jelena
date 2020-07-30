@@ -17,7 +17,7 @@ clip-path: polygon(36% 0%, 100% 0%, 67% 100%, 36% 0%);
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     font-weight: normal;
     font-family: 'Post-Jaffna';
     color: whitesmoke;
