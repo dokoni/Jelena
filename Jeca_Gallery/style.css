@@ -35,23 +35,38 @@ header {
 
 .logo {
     font-family: 'Post-Jaffna';
-    font-size: 1.2rem;
+    font-size: 3vmin;
     align-self: center;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-items: center;
 }
 
 .links {
     font-family: 'Post-Jaffna';
-    font-size: 2rem;
+    font-size: 5vmin;
     text-decoration: none;
-    padding-right: 0.7rem;
     color: inherit;
 }
+
+#hdraw {
+    padding-right: 2.5vw;
+}
+
+#insta-logo {
+    height: 5vmin;
+    width: auto;
+}
+
+#insta-logo img {
+    height: 5vmin;
+    width: auto;
+}
+
+
 
 .main-container {
     height: 90vh;
@@ -115,7 +130,7 @@ header {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .main-container {
         background-image: url(./images/Final-main-mid.jpg);
     }
@@ -142,15 +157,9 @@ header {
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
     
-    .logo {
-        font-size: 2vh;
-    }
-
-    .links {
-        font-size: 2.5vh;
-    }
+    
     
     .main-container {
         background-image: url(./images/Iphone-background.jpg);
