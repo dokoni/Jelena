@@ -169,6 +169,10 @@ header {
     cursor: pointer;
 }
 
+.img1 {
+    display: none;
+}
+
 #lightbox {
     display: none;
     background: rgba(0, 0, 0, 0.8);
