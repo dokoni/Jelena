@@ -4,8 +4,9 @@
 */
 
 /* Boje
-    #1A4F53 - tamnija
-    #2E654A - svetlija
+    tamnija - #1A4F53 
+    svetlija - #2E654A
+    galerija digi pozadina  - background-image: linear-gradient(180deg, rgba(44,102,63,1) 59%, rgba(92,174,191,1) 100%);
 */
 
 @font-face {
@@ -137,78 +138,63 @@ header {
     height: 100%;
 }
 
-/* --------------------gallery------------------ */
+/* -----------------------------------------gallery--------------------------------------- */
 .main-gallery {
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 100%;
     width: 100%;
     background-color: black;
-    /* background-color: #2E654A; */
 }
 
 .grid-container {
-    background-color: #2E654A;
-    display: inline-grid;
-    height: 90vh;
+    background-image: linear-gradient(180deg, rgba(44,102,63,1) 59%, rgba(92,174,191,1) 100%);
+    display: grid;
+    height: 100%;
     width: 100%;
     grid-template-columns: auto auto auto;
-    grid-row-gap: 3%;
-    grid-column-gap: 3%;
+    grid-gap: 1vh;
     justify-content: space-evenly;
-    align-content: space-between;
+    align-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 8vh;
 }
 
 .img {
     border: grey solid 2px;
-    height: 50vmin;
+    height: 40vh;
     width: auto;
+    max-width: 100%;
+    cursor: pointer;
 }
 
+#lightbox {
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
 
-    /* Dugmad */
-    /* button {
-        margin: 1rem;
+#lightbox img {
+    max-height: 80vh;
+    max-width: 70vw;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: auto auto;
     }
-    
-    .btn {
-        background-color: var(--background-color);
-        color: #222;
-        padding: .5em 1em;
-        border: none;
-        outline: none;
-        position: relative;
-        cursor: pointer;
-
-        --background-color: #E3E3E3;
-        --border-size: 2px;
-    }
-
-    .btn.btn-cm::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: -1;
-        border: var(--border-size) solid var(--background-color);
-    }
-
-    .btn.btn-cm:hover::before {
-        top: calc(var(--border-size) * -2);
-        right: calc(var(--border-size) * -2);
-        bottom: calc(var(--border-size) * -2);
-        left: calc(var(--border-size) * -2);
-    } */
-
-
-    
-
-    
-
-
-
+}
 
 
 @media only screen and (max-width: 500px) {
@@ -231,12 +217,6 @@ header {
         color: white;
         top: 0%;
         right: 2%;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .grid-container {
-        grid-template-columns: auto auto;
     }
 }
 
