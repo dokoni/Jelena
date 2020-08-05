@@ -97,9 +97,9 @@ header {
 
 .link-dig h1 {
     position: absolute;
-    font-size: 22vmin;
+    font-size: 20vmin;
     color: whitesmoke;
-    top: 65%;
+    bottom: 0;
     left: 5%;
 }
 
@@ -122,10 +122,10 @@ header {
 
 .link-cla h1 {
     position: absolute;
-    font-size: 22vmin;
+    font-size: 19vmin;
     color: whitesmoke;
     top: 0%;
-    right: 2.5%;
+    right: 5%;
 }
 
 
@@ -205,22 +205,16 @@ header {
 
     .link-dig h1 {
         position: absolute;
-        font-size: 18vmin;
+        font-size: 15vmin;
         color: whitesmoke;
         bottom: 0;
         left: 5%;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
     }
 
 
     .link-cla h1 {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
         position: absolute;
-        font-size: 18vmin;
+        font-size: 14vmin;
         color: whitesmoke;
         top: 0;
         right: 5%;
