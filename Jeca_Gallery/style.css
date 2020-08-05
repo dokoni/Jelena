@@ -12,8 +12,6 @@
 @font-face {
     font-family: 'Post-Jaffna';
     src: url(./fonts/PostNoBillsJaffna-SemiBold.woff);
-    
-    
 }
 
 * {
@@ -44,7 +42,6 @@ header {
     color: inherit;
 }
 
-
 .logo {
     font-family: 'Post-Jaffna';
     font-size: 3vmin;
@@ -64,7 +61,7 @@ header {
     color: inherit;
 }
 
-#hdraw {
+#heading-drawings {
     padding-right: 2.5vw;
 }
 
@@ -101,7 +98,7 @@ header {
 .link-dig h1 {
     position: absolute;
     font-size: 22vmin;
-    color: white;
+    color: whitesmoke;
     top: 65%;
     left: 5%;
 }
@@ -126,7 +123,7 @@ header {
 .link-cla h1 {
     position: absolute;
     font-size: 22vmin;
-    color: white;
+    color: whitesmoke;
     top: 0%;
     right: 2.5%;
 }
@@ -208,19 +205,25 @@ header {
 
     .link-dig h1 {
         position: absolute;
-        font-size: 24vmin;
-        color: white;
-        top: 70%;
+        font-size: 18vmin;
+        color: whitesmoke;
+        bottom: 0;
         left: 5%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
 
 
     .link-cla h1 {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
         position: absolute;
-        font-size: 22vmin;
-        color: white;
-        top: 0%;
-        right: 2%;
+        font-size: 18vmin;
+        color: whitesmoke;
+        top: 0;
+        right: 5%;
     }
 }
 
