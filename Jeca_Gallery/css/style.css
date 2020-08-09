@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'Post-Jaffna';
-    src: url(/fonts/PostNoBillsJaffna-SemiBold.woff);
+    src: url(./fonts/PostNoBillsJaffna-SemiBold.woff);
 }
 
 * {
