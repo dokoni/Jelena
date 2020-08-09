@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'Post-Jaffna';
-    src: url(/fonts/PostNoBillsJaffna-SemiBold.woff);
+    src: url(../fonts/PostNoBillsJaffna-SemiBold.woff);
 }
 
 * {
@@ -78,7 +78,7 @@ header {
 .main-container {
     height: 90vh;
     width: auto;
-    background-image: url(/images/Final-main-big.jpg);
+    background-image: url(../images/Final-main-big.jpg);
     background-position: center;
     background-size: 100vw 90vh;
     position: relative;
