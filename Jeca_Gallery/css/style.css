@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'Post-Jaffna';
-    src: url(./fonts/PostNoBillsJaffna-SemiBold.woff);
+    src: url(/fonts/PostNoBillsJaffna-SemiBold.woff);
 }
 
 * {
@@ -78,7 +78,7 @@ header {
 .main-container {
     height: 90vh;
     width: auto;
-    background-image: url(./images/Final-main-big.jpg);
+    background-image: url(/images/Final-main-big.jpg);
     background-position: center;
     background-size: 100vw 90vh;
     position: relative;
@@ -166,30 +166,10 @@ header {
     cursor: pointer;
 }
 
-.img1 {
+/* .img1 {
     display: none;
-}
+} */
 
-#lightbox {
-    display: none;
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    z-index: 1000;
-    height: 100%;
-    width: 100%;
-    top: 0;
-}
-
-#lightbox img {
-    max-height: 80vh;
-    max-width: 70vw;
-}
-
-#lightbox.active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 @media only screen and (max-width: 900px) {
     .grid-container {
